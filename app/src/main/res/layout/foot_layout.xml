@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:id="@+id/foot_lnlayout"
+    android:background="@color/black"
+    android:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/foot_iv_fire"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+        android:id="@+id/foot_tv_fire"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="推荐" />
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/foot_iv_circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/foot_tv_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="圈子" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/foot_iv_partner"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            />
+
+
+        <TextView
+            android:layout_marginRight="25dp"
+            android:id="@+id/foot_tv_partner"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="广场"
+
+             />
+
+        <ImageView
+            android:id="@+id/foot_iv_me"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            />
+
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:id="@+id/foot_tv_me"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="我的"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

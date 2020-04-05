@@ -1,0 +1,2 @@
+rootProject.name='CardVideoPlayer'
+include ':app'
